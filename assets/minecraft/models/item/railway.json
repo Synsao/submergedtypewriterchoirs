@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "stc:item/railway"
+    "layer0": "item/railway"
   }
 }

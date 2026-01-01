@@ -1,6 +1,19 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "stc:item/railway"
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_axe"
+    },
+    "cases": [
+	  {
+        "when": "railway",
+        "model": {
+          "type": "model",
+          "model": "stc:item/railway"
+        }
+      }
+    ]
   }
 }

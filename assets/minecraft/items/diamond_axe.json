@@ -11,7 +11,7 @@
         "when": "railway",
         "model": {
           "type": "model",
-          "model": "stc:item/railway"
+          "model": "item/railway"
         }
       }
     ]

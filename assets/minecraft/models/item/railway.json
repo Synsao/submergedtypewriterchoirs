@@ -1,6 +1,39 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "item/railway"
-  }
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/railway"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 10, -0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 10, -0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 7.5, 2.5],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 7.5, 2.5],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"ground": {
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"gui": {
+			"translation": [3.5, 4, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [1.25, 1.25, 0],
+			"scale": [1.45, 1.45, 1]
+		}
+	}
 }
